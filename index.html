@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecommerce website</title>
+  <script src="https://kit.fontawesome.com/37a0feaa22.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <!-- navigation bar 1 -->
+
+  <nav class="navbar1">
+    <div class="navbar1div1">
+      <i class="fa-solid fa-bars" style="color: #000000;"></i>
+      <h1>PRODUCTS</h1>
+    </div>
+    <div class="navbar1div2">
+      <h3>Tina Renn Clausen</h3>
+      <div class="circle">
+        <h3>TC</h3>
+      </div>
+      <i class="fa-solid fa-bell"></i>
+    </div>
+  </nav>
+
+  <!-- navigation bar 2 -->
+
+  <nav class="navbar2">
+    <div class="navbar2div1">
+      <button id="search-container">
+        <input type="search" id="search-input" placeholder="Search for products, brands and more" />
+        <i id="search" class="fa-solid fa-magnifying-glass" style="color:black;">
+        </i>
+      </button>
+      <select id="buttons">
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="kids">Kids</option>
+        <option selected value="section">SECTION</option>
+      </select>
+      <select id="collections">
+        <option value="topwear">Topwear</option>
+        <option value="bottomwear">Bottomwear</option>
+        <option selected value="collections">COLLECTIONS</option>
+      </select>
+      <select id="brand">
+        <option value="gucci">Gucci</option>
+        <option value="nike">Nike</option>
+        <option value="dior">Dior</option>
+        <option value="balenciaga">Balenciaga</option>
+        <option value="prada">Prada</option>
+        <option value="lv">Louis Vuitton</option>
+        <option selected value="brand">BRAND</option>
+      </select>
+      <select id="material">
+        <option value="cotton">Cotton</option>
+        <option value="leather">Leather</option>
+        <option value="silk">Silk</option>
+        <option selected value="material">MATERIAL</option>
+      </select>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option selected value="size">SIZE</option>
+      </select>
+    </div>
+    <div class="navbar2div2">
+      <label for="sortby" class="sortby">Sort by:</label>
+      <select id="sortby">
+        <option selected value="recommended">Recommended</option>
+        <option value="htl">Price: High to Low</option>
+        <option value="lth">Price: Low to High</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- card section -->
+
+  <!-- <section>
+    <div class="card">
+      <img src="/images/MicrosoftTeams-image (1).png" alt="tshirt" style="width:80%">
+      <div>
+        <i class="fa-solid fa-star" style="color: #fef15d;"></i>
+        <i class="fa-solid fa-star" style="color: #fef15d;"></i>
+        <i class="fa-solid fa-star" style="color: #fef15d;"></i>
+        <i class="fa-solid fa-star" style="color: #fef15d;"></i>
+        <i class="fa-regular fa-star" style="color: #000000;"></i>
+      
+        <p class="price">$19.99</p>
+      </div>
+      <h1>U.S. Polo</h1>
+      <p>Spread Collar Formal Shirt</p>
+      <p><button class="card button">Add to Cart</button></p>
+    </div>
+  </section> -->
+
+  <div id="products">
+  </div>
+  <!-- <div class="image-container"></div> -->
+
+
+  <script src="/script.js">
+  </script>
+
+</body>
+
+</html>
